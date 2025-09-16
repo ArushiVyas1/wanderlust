@@ -1,0 +1,18 @@
+<% layout("/layouts/boilerplate") %>
+
+<h3>Sign Up</h3>
+<form action="/signup" method="POST">
+  <div class="mb-3">
+    <label for="username" class="form-label">Username</label>
+    <input type="text" name="username" id="username" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" name="email" id="email" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Password</label>
+    <input type="password" name="password" id="password" class="form-control" required>
+  </div>
+  <button class="btn btn-dark">Sign Up</button>
+</form>
